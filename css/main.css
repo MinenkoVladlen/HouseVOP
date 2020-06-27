@@ -1,0 +1,83 @@
+p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+body {
+    background-color: #242B33;
+}
+
+.fonts_houseVOP {
+    font-family: 'PostNoBillsJaffna-Regular';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.comp_fonts_HouseVOP {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.fonts_nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.font_header_contact {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+header {
+    background-image: url("../img/Rectangle.png");
+}
+
+.nav {
+    padding-top: 30px;
+}
+
+.head_mouse {
+    padding: 200px 0 74px;
+}
+
+.mouse {
+    padding: 100px 0 200px;
+}
+
+@font-face {
+    font-family: PostNoBillsJaffna-Regular;
+    src: url("../fonts/PostNoBillsJaffna-Regular.ttf");
+}
