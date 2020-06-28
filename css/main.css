@@ -8,6 +8,24 @@ a:hover {
     color: #ffffff;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+h {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+}
+
 h1 {
     font-family: Playfair Display;
     font-weight: bold;
@@ -22,6 +40,23 @@ h2 {
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 body {
@@ -60,7 +95,6 @@ body {
     color: #FFFFFF;
 }
 
-
 header {
     background-image: url("../img/Rectangle.png");
 }
@@ -76,6 +110,100 @@ header {
 .mouse {
     padding: 100px 0 200px;
 }
+
+.advantages {
+    padding: 120px 0;
+    position: relative;
+}
+
+.advantages h4 {
+    padding: 53px 5px;
+}
+
+.advantages img {
+    height: 80px;
+}
+
+.flat_loft_three_flow {
+    background-image: url("../img/Loft-3.png");
+    background-repeat: no-repeat;
+}
+
+.flat_loft_two_flow {
+    background-image: url("../img/Loft-2.png");
+    background-repeat: no-repeat;
+}
+
+.flat h2 {
+    padding-bottom: 100px;
+}
+
+.flat h3 {
+    padding: 248px 132px 50px 50px;
+}
+
+.background_II {
+    position: absolute;
+    top: -78px;
+    right: 42px;
+}
+
+.watched {
+    background-image: url("../img/Background-watch.png");
+    background-repeat: no-repeat;
+    padding: 180px 0;
+}
+
+.watched h2 {
+    padding-bottom: 50px;
+}
+
+input[type='text'], input[type='tel'] {
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+    border: none;
+    outline: none;
+    padding: 5px 0 5px;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus {
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.not_transfer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    padding-bottom: 10px;
+}
+
+.button_district {
+    background-color: #D4C17F;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 35px 0 0 ;
+    padding: 12px 0 11px;
+}
+
+
 
 @font-face {
     font-family: PostNoBillsJaffna-Regular;
