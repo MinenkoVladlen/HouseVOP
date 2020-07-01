@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="css/main.css">
     <title>Title</title>
 </head>
@@ -24,7 +25,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-6 d-flex justify-content-between">
+                <div class="col-lg-6 col-md-9 d-flex justify-content-between">
                     <a href="#" class="fonts_nav">О комплексе</a>
                     <a href="#" class="fonts_nav">Район</a>
                     <a href="#" class="fonts_nav">Каталог квартир</a>
@@ -37,7 +38,7 @@
     <div class="head_mouse">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-7 text-center">
+                <div class="col-lg-7 text-center">
                     <h1>Жилой комплекс в историческом центре</h1>
                 </div>
             </div>
@@ -47,11 +48,11 @@
                 </a>
             </div>
             <div class="row">
-                <div class="col-5 d-flex align-items-center justify-content-end">
+                <div class="col-sm-5 col-6 d-flex align-items-center justify-content-end">
                     <img src="img/map_icon.svg" alt="map" class="pr-2">
                     <p class="font_header_contact"> Наб. реки Фонтанки 10-15</p>
                 </div>
-                <div class="col-5 offset-2 d-flex align-items-center">
+                <div class="col-sm-5 col-6 offset-sm-2 d-flex align-items-center">
                     <img src="img/phone-call.svg" alt="phone" class="pr-2">
                     <p class="font_header_contact">8 (812) 123-45-67</p>
                 </div>
@@ -62,19 +63,19 @@
 <section class="advantages">
     <div class="container">
         <div class="row text-center">
-            <div class="col-3 offset-1">
+            <div class="col-lg-3 offset-lg-1 col-md-3">
                 <img src="img/GroupTree.png" alt="tree">
                 <h4>Рядом исторические парки и скверы</h4>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3">
                 <img src="img/Group-bulding.png" alt="buldings">
                 <h4>Полностью обустроенный</h4>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3">
                 <img src="img/Group-fountain.png" alt="fountain">
                 <h4>10 фонтанов на территории</h4>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-3">
                 <img src="img/Group-cycle.png" alt="cycle">
                 <h4>6 км велодорожек</h4>
             </div>
@@ -87,48 +88,51 @@
 <section class="flat">
     <div class="container">
         <div class="row">
-            <div class="col-">
+            <div class="col">
                 <h2>Наши квартиры</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-6  flat_loft_three_flow">
+            <div class="col-lg-6  flat_loft_three_flow ">
                 <h3>Лофт — 3 этажа</h3>
             </div>
-            <div class="col-6 flat_loft_two_flow">
+            <div class="col-lg-6 flat_loft_two_flow">
                 <h3>Лофт — 2 этажа</h3>
             </div>
             <div class="w-100"></div>
-            <div class="col-6 flat_loft_three_flow">
+            <div class="col-lg-6 flat_loft_three_flow">
                 <h3>Лофт — 3 этажа</h3>
             </div>
-            <div class="col-6 flat_loft_two_flow">
+            <div class="col-lg-6 flat_loft_two_flow">
                 <h3>Лофт — 2 этажа</h3>
             </div>
+        </div>
+        <div class="background_III">
+            <h>III</h>
         </div>
     </div>
 </section>
 <section class="watched">
     <div class="container">
         <div class="row d-flex align-items-end">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h2>Хотите посмотреть?</h2>
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                     стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
                     создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
                     образцов. </p>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <form>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-6 col-10 offset-1 offset-sm-0 pb576">
                             <input type="text" class="form_name" placeholder="Ваше имя">
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6 col-10 offset-1 offset-sm-0">
                             <input type="tel" class="form_name" placeholder="Ваш телефон">
                         </div>
                     </div>
-                    <div class="row text-center d-flex align-items-end">
+                    <div class="row text-center d-flex align-items-end pt-4">
                         <div class="col-6 not_transfer">
                             *Мы никому не передаем ваши данные.
                             И не сохраняем ваш номер в базу.
@@ -144,7 +148,97 @@
         </div>
     </div>
 </section>
-
+<section class="video">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/video.png"></a>
+            </div>
+            <div class="background_IV"><h>IV</h></div>
+        </div>
+    </div>
+</section>
+<section class="district">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Район на карте</h2>
+                <div id="map"></div>
+                <div class="background_V"><h>V</h></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="question">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Есть вопросы?</h2>
+            </div>
+        </div>
+        <form>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 pb not_transfer">
+                    *Мы никому не передаем ваши данные.
+                    И не сохраняем ваш номер в базу.
+                </div>
+                <div class="col-lg-3  col-sm-6 col-10 offset-1 offset-sm-0 pb">
+                    <input type="text" class="form_name" placeholder="Ваше имя">
+                </div>
+                <div class="col-lg-3 col-sm-6 col-10 offset-1 offset-sm-0 pb576">
+                    <input type="text" class="form_name" placeholder="Ваше имя">
+                </div>
+                <div class="col-lg-3 col-6 offset-3 offset-sm-0">
+                    <div class="button_district">
+                        Посмотреть район
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="logo">
+                    <a href="#">
+                        <p class="fonts_houseVOP">HouseVOP</p>
+                        <p class="comp_fonts_HouseVOP">ЖИЛОЙ КОМПЛЕКС</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 d-flex flex-column">
+                <a href="#" class="fonts_nav">О комплексе</a>
+                <a href="#" class="fonts_nav">Район</a>
+                <a href="#" class="fonts_nav">Каталог квартир</a>
+                <a href="#" class="fonts_nav">Ипотека</a>
+                <a href="#" class="fonts_nav">Контакты</a>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-6 d-flex flex-column">
+                <a href="#" class="fonts_nav">О комплексе</a>
+                <a href="#" class="fonts_nav">Район</a>
+                <a href="#" class="fonts_nav">Каталог квартир</a>
+                <a href="#" class="fonts_nav">Ипотека</a>
+                <a href="#" class="fonts_nav">Контакты</a>
+            </div>
+            <div class="col-md-3 offset-lg-1 col-6 d-flex flex-column">
+                <a href="#" class="fonts_nav">Адрес: Наб. реки Фонтанки 10-15</a>
+                <a href="#" class="fonts_nav">Телефон: 8 (812) 123-45-67</a>
+                <a href="#" class="fonts_nav">Отдел продаж: 10:00 - 20:00</a>
+                <a href="#" class="fonts_nav">E-mail: <span class="color_email">vip@housevip.ru</span></a>
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="icon_footer"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="icon_footer"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="icon_footer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon_footer"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -155,5 +249,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1yKGl6-HZWQQ2AiWqMfJ6_tbGJOOfga0&callback=initMap"></script>
+<script src="https://kit.fontawesome.com/02cc771f07.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
