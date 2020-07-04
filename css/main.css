@@ -106,13 +106,17 @@ header {
     background-image: url("../img/Rectangle.png");
 }
 
-.logo_hover:hover {
+.navbar-dark .navbar-brand:hover {
     transition: 0.3s;
     color: #D4C17F;
 }
 
 .nav {
     padding-top: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
 }
 
 .head_mouse {
